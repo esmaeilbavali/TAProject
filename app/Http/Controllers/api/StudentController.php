@@ -81,7 +81,7 @@ class StudentController extends Controller
         if (!$student)
             return response()->json([
                 'message' => 'student not found',
-                'error_code' => 487
+                'error' => 499
             ]);
         
         $name  = $request->name;
