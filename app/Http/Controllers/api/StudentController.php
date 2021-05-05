@@ -59,7 +59,7 @@ class StudentController extends Controller
         if (!$student)
             return response()->json([
                 'message' => 'student not found',
-                'error' => 415
+                'error' => 402
             ]);
 
         return response()->json([
